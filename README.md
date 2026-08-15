@@ -39,18 +39,17 @@ Embedded firmware for a competition RC combat vehicle built by **Team ApeX** (Ja
 
 ```
 .
-├── src/            # Firmware source (interrupt handlers, motor control, fail-safe logic)
-├── docs/           # Wiring diagrams, tuning notes
+├── Death Race Manuals/   # Reference manuals and datasheets
+├── Death Race PPT.pdf    # Project presentation
+├── rc_car_code.cpp       # Firmware: interrupt-driven PWM decoding, motor control, fail-safe logic
 └── README.md
 ```
 
-*(Update this section to match your actual repo layout.)*
-
 ## Getting Started
 
-1. Clone the repository and open the firmware in the Arduino IDE.
+1. Clone the repository and open `rc_car_code.cpp` in the Arduino IDE.
 2. Select **Arduino Uno** as the target board.
-3. Connect the RC receiver PWM lines and BTS7960 control pins as per the wiring diagram in `/docs`.
+3. Connect the RC receiver PWM lines and BTS7960 control pins as per the wiring/setup notes in `Death Race Manuals/`.
 4. Flash the firmware and power the vehicle.
 5. Verify the fail-safe by disconnecting the RC transmitter — motors should stop within 500ms.
 
