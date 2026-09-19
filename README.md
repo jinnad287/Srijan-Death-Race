@@ -24,7 +24,7 @@ Embedded firmware for a competition RC combat vehicle built by **Team ApeX** (Ja
 | Microcontroller | Arduino Uno |
 | Motor Driver | BTS7960 H-bridge |
 | RC Receiver | PWM output, throttle + steering channels |
-| Power | (add battery/voltage specs here) |
+| Power | (3S1P 2200mAh Li-Po pack) |
 | Chassis | Custom combat-vehicle chassis (Team ApeX build) |
 
 ## How It Works
