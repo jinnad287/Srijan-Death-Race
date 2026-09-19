@@ -1,4 +1,4 @@
-# Autonomous RC Combat Vehicle — Srijan Death Race 2026
+# RC Combat Vehicle — Srijan Death Race 2026
 
 Embedded firmware for a competition RC combat vehicle built by **Team ApeX** (Jadavpur University) for **Srijan Death Race 2026**. The vehicle takes throttle/steering input from an RC receiver and drives a dual-motor H-bridge setup with real-time interrupt-driven control, dead-zone filtering, ramped acceleration, and a signal-loss fail-safe.
 
